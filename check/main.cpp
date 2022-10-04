@@ -20,5 +20,6 @@ int main() {
     cout << "Enter your new balance: ";
     cin >> check.new_balance;
     cout << "Your check: " << check.first_name << ", " << check.number << ", " << check.new_balance << endl;
+    
     return 0;
 }
