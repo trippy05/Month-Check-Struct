@@ -4,8 +4,7 @@ struct check{
     int number;
     string first_name;
     string last_name;
-    int old_balance;
-    int new_balance;
+    int balance;
 };
 int main() {
     check check;
@@ -16,10 +15,10 @@ int main() {
     cout << "Enter your last name: ";
     cin >> check.last_name;
     cout << "Enter your balance: ";
-    cin >> check.old_balance;
+    cin >> check.balance;
     cout << "Enter your new balance: ";
-    cin >> check.new_balance;
-    cout << "Your check: " << check.first_name << ", " << check.number << ", " << check.new_balance << endl;
+    cin >> check.balance;
+    cout << "Your check: " << check.first_name << ", " << check.number << ", " << check.balance << endl;
     
     return 0;
 }
